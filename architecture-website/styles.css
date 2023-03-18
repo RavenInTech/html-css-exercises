@@ -1,6 +1,11 @@
 
 
 
+span {
+    background: #87ceeb;
+    font-weight: 700;
+}
+
 .big-ben-img,
 .neuen-zollhof-img {
     height: 300px;
@@ -13,8 +18,25 @@
     width: 300px;
 }
 
+
 .tabular-data, td, th{
     border: 1px solid black;
     border-collapse: collapse;
     padding: 7px;
+}
+
+.container-one {
+    border: 5px solid #000;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.container-one > h2 {
+    margin-top: 5px;
+}
+
+.box-one {
+    background: #800000 ;
+    height: 150px;
+    width: 150px;
 }
